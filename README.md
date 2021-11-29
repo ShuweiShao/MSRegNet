@@ -25,7 +25,7 @@ If you find our work useful or interesting, please cite our paper:
 ```
 ## 📈 Results
 
-To train a model (tensorflow 1.13.1 and keras 2.2.4), run:
+To train a model, run:
 ```bash
 CUDA_VISIBLE_DEVICES=<your_desired_GPU> \
 python train_s2s_2d.py \
