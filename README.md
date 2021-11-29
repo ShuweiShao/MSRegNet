@@ -38,3 +38,6 @@ python train_s2s_2d.py \
     --steps_per_epoch 100 \
     --model_dir <your_dir_to_save_model> 
 ```
+
+## Acknowledgement
+Our code is based on the implementation of [VoxelMorph](https://github.com/voxelmorph/voxelmorph/tree/dev/voxelmorph/tf).
