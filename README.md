@@ -23,5 +23,18 @@ If you find our work useful or interesting, please cite our paper:
   publisher={Springer}
 }
 ```
+## 📈 Results
 
-
+To train a model (tensorflow 1.13.1 and keras 2.2.4), run:
+```bash
+CUDA_VISIBLE_DEVICES=<your_desired_GPU> \
+python train_s2s_2d.py \
+     <your_data_path> \
+    --model vm2  \
+    --batch_size 2  \
+    --lambda 0.1 \
+    --data_loss mse \
+    --epochs 1500 \
+    --steps_per_epoch 100 \
+    --model_dir <your_dir_to_save_model> 
+```
